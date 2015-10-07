@@ -67,6 +67,13 @@ class SilverServiceTaxi(Taxi):
         return SilverServiceTaxi.flagfall + (super().get_fare() * self.fanciness)
 
 
+class Special(Taxi):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+s = Special(name="a", fuel=90, price_per_km=1.2)
+print(s)
+
 def test():
     # bus = Car("Datsun", 180)
     # bus.drive(30)
