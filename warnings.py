@@ -1,12 +1,15 @@
 """
 This file is to show PyCharm's on-the-fly warnings
 """
-import random
+# import random
 
-x = ("3")
+x = "3"
 
 
 def GOAWAYNOWFUNCTION():
-    x, y = 10,20
-    return x + y
+    x, y = 10, 20
     print(not x)
+    return x + y
+
+
+GOAWAYNOWFUNCTION()
