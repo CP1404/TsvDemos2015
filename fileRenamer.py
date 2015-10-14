@@ -6,7 +6,7 @@ Modified 16/06/2014 - just use .replace instead of slicing the start; assume tha
 
 import os
 
-#Remove start (from LearnJCU)
+# Remove start (from LearnJCU)
 START_TEXT = "Project Milestone 2 (Full Site) & Peer Assessment_"
 DIRECTORY = "/Users/sci-lmw1/Google Drive/CP2010/CP2010 2014/StudentWork/"
 
@@ -25,4 +25,3 @@ for filename in os.listdir('.'):
     newName = filename.replace("%20", " ")
     os.rename(filename, newName)
 """
-
