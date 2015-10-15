@@ -5,7 +5,7 @@ Tsv/Cns: run twice; programmer just find and replace "Townsville"-"Cairns" and "
 """
 
 # filename = "/Users/sci-lmw1/GoogleDrive/CP1406/CP1406 CP2010 2015-1/CP1406 2015-1/Assignments/CairnsStudents.csv"
-filename = "/Users/sci-lmw1/GoogleDrive/CP1406/CP1406 2015-2/CP1406 2015 SP2/Assignments/A1/CairnsStudents.csv"
+filename = "CairnsStudents.csv"
 linkBase = "<a href=\"http://ditwebcns.jcu.edu.au/~"
 topSection = """<!doctype html>
 <html>
